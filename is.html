@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Transport & Care</title>
+    <link rel="stylesheet" href="index.css">
+
+    <style> 
+       header {
+            background-color: #ffcc99;
+            padding: 60px 40px;
+            border-radius: 0 0 50px 50px;
+            margin-top: 60px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <header id="home">
+        <h1>Safe & Reliable Pet Transport & Care</h1>
+        <p>We ensure the best travel & care experience for your furry pets!</p>
+        <img src="pet1.jpeg" alt="Happy pet traveling" class="hero-img">
+        <a href="#contact" class="btn">Book Now</a>
+    </header>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <img src="pet2.jpeg" alt="Pet Transport">
+            <h3>Pet Transport</h3>
+            <p>Safe and comfortable transport for your pets.</p>
+        </div>
+        <div class="service-item">
+            <img src="pet3.jpeg" alt="Pet Boarding">
+            <h3>Pet Boarding</h3>
+            <p>A home away from home for your pets.</p>
+        </div>
+    </section>
+    
+    <section id="testimonials" class="testimonials">
+        <h2>Happy Customers</h2>
+        <p>"Great service! My pet was well taken care of during travel." - Deepika </p>
+        <p>"This makes our life easier. Cause no public travels will allow the pet to travel💗." - Thaman</p>
+        <p>"Highly recommended for pet boarding!" - Ratan  </p>
+    </section>
+    
+    <section id="faq" class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>How do I book a pet transport?</h3>
+            <p>Fill out the contact form and we’ll get in touch!</p>
+        </div>
+        <div class="faq-item">
+            <h3>What safety measures do you take?</h3>
+            <p>We ensure comfort for the pets, we do install the GPS tracker that let our customers know the exact location their pets are traveling 
+                and we do train our employees , so they manage the professional handling.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id = "contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+
+        </form>
+
+        <p id="confirmationMessage" style="display: none; color: rgba(11, 15, 11, 0.871);">
+            Your information has been submitted successfully!
+        </p>
+    </section>
+
+    
+    <script src = "scri.js"></script>
+</body>
+</html>
